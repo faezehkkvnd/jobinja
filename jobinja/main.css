@@ -14,7 +14,7 @@
 }
 
 body {
-    /* margin: 0 40% 0 40%; */
+
     font-family: Sans;
 }
 
@@ -30,6 +30,7 @@ body {
     /* مدیا باید بدی */
     z-index: 2;
 }
+
 
 .top-nav {
     background-color: #444;
@@ -74,14 +75,11 @@ body {
 .nav-lists {
     background-color: #555;
     border: 1px solid #fff;
-
     position: absolute;
     z-index: 2;
 }
 
-.nav-list {
-    cursor: pointer;
-}
+
 
 .branding-link {
     font-size: 35px;
@@ -120,10 +118,11 @@ body {
 .nav-lists {
     padding: 0;
     width: 500px;
-    transform: translateY(-20px)
+    transform: translateY(-20px);
 }
 
 .nav-list {
+    cursor: pointer;
     list-style: none;
     padding: 15px 0 15px 15px;
     border-bottom: var(--border-bottom);
@@ -167,11 +166,11 @@ body {
 
 }
 
-.search-box {
+.search-box-5 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 85%;
+    width: 90%;
 }
 
 .search-input-box {
@@ -184,9 +183,16 @@ body {
     height: 45px;
 }
 
-.search-icon {
+.search-icon,
+.location-icon {
     width: 25px;
     height: 25px;
+    transform: translateX(-5px);
+}
+
+.menue-icon {
+    width: 20px;
+    height: 20px;
     transform: translateX(-5px);
 }
 
@@ -197,7 +203,7 @@ body {
 }
 
 .search-input::placeholder {
-    font-size: 15px;
+    font-size: 12px;
     font-family: Sans;
     font-weight: bold;
     color: #55555552;
@@ -206,12 +212,14 @@ body {
 .search-button {
     border: none;
     background-color: rgb(255, 205, 112);
+    border-radius: 5px;
     height: 45px;
     font-size: 14px;
     font-family: Sans;
     font-weight: bold;
 
 }
+
 
 .all-jobs {
     color: #fff;
@@ -461,9 +469,8 @@ body {
 }
 
 .guestuser-jobcard {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -642,11 +649,9 @@ body {
 }
 
 .companies {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -789,7 +794,8 @@ body {
 .job-list-header {
     border-bottom: var(--border-bottom);
     padding: 20px;
-
+    align-items: center;
+    justify-self: center;
 }
 
 .job-list-header p {
@@ -809,8 +815,9 @@ body {
 
 
 }
-.seemore{
-    padding:20px;
+
+.seemore {
+    padding: 20px;
     text-align: center;
 }
 
@@ -901,9 +908,8 @@ body {
 }
 
 .weblogs-guest {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -914,7 +920,9 @@ body {
     flex-direction: column;
     border: var(--border);
     padding: 20px;
-    width: 320px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
 }
 
 .weblog-img {
@@ -1040,6 +1048,41 @@ body {
     color: #c9c6c6;
 }
 
+.c-footer7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #555;
+}
+
+.footer--details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.f-list-header {
+    border-bottom: var(--border-bottom);
+}
+
+.f-list-header p {
+    color: #c9c6c6;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer-lists-7 {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+.footer-list-7 {
+    font-size: 12px;
+    padding: 10px;
+    color: #f5f5f5;
+}
+
 @media screen and (max-width:500px) {
     .j-list-7 {
         display: none;
@@ -1050,6 +1093,19 @@ body {
         display: block;
 
     }
+
+    .nav-7 {
+        display: none;
+    }
+
+    .search-box-7 {
+        display: none;
+    }
+
+    .c-footer7 {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:500px) {
@@ -1062,6 +1118,19 @@ body {
         display: none;
 
     }
+
+    .nav-7 {
+        display: none;
+    }
+
+    .search-box-7 {
+        display: none;
+    }
+
+    .c-footer7 {
+        display: none;
+    }
+
 }
 
 
@@ -1088,11 +1157,36 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-evenly;
         gap: 10px;
     }
 
     .g-details {
         width: 310px;
+    }
+
+    .nav-7 {
+        display: none;
+    }
+
+    .search-box-7 {
+        display: none;
+    }
+
+    .c-footer {
+        display: none;
+    }
+
+    .footer--details {
+        justify-content: space-evenly;
+    }
+
+    .c-footer7 {
+        display: block;
+    }
+
+    .f-lists-7 {
+        display: none
     }
 
 }
@@ -1104,7 +1198,7 @@ body {
         gap: 5px;
         align-items: center;
         justify-content: center;
-        ;
+
     }
 
     .bottom-user-box {
@@ -1112,6 +1206,7 @@ body {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+
     }
 
     .login-signup {
@@ -1122,11 +1217,128 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: space-evenly;
         gap: 10px;
     }
 
     .g-details {
         flex-direction: column;
         width: 195px;
+    }
+
+    .nav-5 {
+        display: none;
+    }
+
+    .nav-7 {
+        background-color: #444;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-lists-7 {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .nav-list {
+        cursor: pointer;
+        padding: 15px 0 15px 0;
+        border-bottom: none;
+    }
+
+    .nav-list:hover {
+        background-color: #555;
+    }
+
+    .nav-listicon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .nav-listlink {
+        padding: 10px;
+    }
+
+    .left-nav-7 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .search-box-5 {
+        display: none;
+    }
+
+    .search-box-7 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .all-capitals,
+    .all-rendered,
+    .search-input-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        padding: 0 5px 0 5px;
+        justify-content: space-evenly;
+        background-color: #fff;
+        border-radius: 5px;
+        width: 27%;
+        height: 45px;
+    }
+
+    .f-icons-5,
+    .footer_copyright {
+        display: none;
+    }
+
+    .f-lists-7 {
+        display: block;
+    }
+
+    .homeheader {
+        padding: 0 10% 0 10%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .nav-7 {
+        padding: 0 50px 0 50px;
+
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .nav-7,
+    .c-footer7 {
+        padding: 0 100px 0 100px;
+
+    }
+
+    .homeheader {
+        padding: 0 20% 0 20%;
+    }
+
+    .top-slider,
+    .guest-user-box,
+    .job-offers,
+    .guestuser-jobcard,
+    .begain-guid-box,
+    .company-introduction,
+    .job-list,
+    .weblog-tab {
+        margin: 0 20% 0 20%;
     }
 }
