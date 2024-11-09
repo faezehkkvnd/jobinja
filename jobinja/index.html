@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="navigation ">
+        <div class="nav-5">
+            <div class="top-nav">
+                <div class="right-nav">
+                    <a href="#" class="drawer-menu-icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a href="#"><img src="./assets/img/search-icon.png" class="search-iconimg"></a>
+                </div>
+                <div>
+                    <a href="#" class="branding-link">jobinja</a>
+                </div>
+                <div class="left-nav">
+                    <a href="#"><img src="./assets/img/notif-bel.png" class="notification-icon"></a>
+                    <a href="#"><img src="./assets/img/login-person.png" class="login-icon"></a>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-lists" id="myLinks">
+                    <li class="nav-list"><a href="#" class="nav-listlink"><img class="nav-listicon"
+                                src="./assets/img/home-navlist.png" alt="">خانه</a></li>
+                    <li class="nav-list"><a href="#" class="nav-listlink"><img class="nav-listicon"
+                                src="./assets/img/magnify-navlist.png" alt="">جست و جوی مشاغل </a></li>
+                    <li class="nav-list"><a href="#" class="nav-listlink"><img class="nav-listicon"
+                                src="./assets/img/stars-navlist.png" alt="">رزومه ساز </a></li>
+                    <li class="nav-list"><a href="#" class="nav-listlink"><img class="nav-listicon"
+                                src="./assets/img/diamond-navlist.png" alt=""> ۵۰ شرکت برتر</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="nav-7">
+            <div class="right-nav-7">
+                <ul class="nav-lists-7">
+                    <li class="nav-list r-nav-list-7">
+                        <img class="nav-listicon" src="./assets/img/home-navlist.png" alt="">
+                        <a href="#" class="nav-listlink">
+                            خانه
+                        </a>
+                    </li>
+                    <li class="nav-list r-nav-list-7 ">
+                        <img class="nav-listicon" src="./assets/img/magnify-navlist.png" alt="">
+                        <a href="#" class="nav-listlink">
+                            جستجوی مشاغل
+                        </a>
+                    </li>
+                    <li class="nav-list r-nav-list-7">
+                        <img class="nav-listicon" src="./assets/img/stars-navlist.png" alt="">
+                        <a href="#" class="nav-listlink">
+                            رزومه ساز
+                        </a>
+                    </li>
+                    <li class="nav-list r-nav-list-7">
+                        <img class="nav-listicon" src="./assets/img/diamond-navlist.png" alt="">
+                        <a href="#" class="nav-listlink">
+                            ۵۰ شرکت
+                        </a>
+                    </li>
+                    <li class="nav-list r-nav-list-7">
+                        <img class="nav-listicon" src="./assets/img/diamond-navlist.png" alt="">
+                        <a href="#" class="nav-listlink">
+                            بخش کارفرمایان
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-nav-7">
+                <ul class="nav-lists-7">
+                    <li class="nav-list  l-nav-list-7">
+                        <a href="#" class="">
+                            <img src="./assets/img/notif-bel.png" alt="" style="width: 30px; height: 30px;">
+                        </a>
+                    </li>
+                    <li class="nav-list l-nav-list-7 ">
+                        <img src="/assets/img/login-icon.png" alt="" style="width: 20px;">
+                        <a href="#" class="nav-listlink nav-list-link">
+                            ورود کارجو
+                        </a>
+                    </li>
+                    <li class="nav-list l-nav-list-7">
+                        <img src="assets/img/login--person.png" alt="" style="width: 20px;">
+                        <a href="#" class="nav-listlink nav-list-link">
+                            ثبت نام کارجو
+                        </a>
+                    </li>
+                    <li class="nav-list"><a href="#" class="branding-link ">jobinja</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="homeheader">
+            <p class="home-h1"> <ins>2,025</ins> <a>اگهی استخدام فعال در </a> <ins>10,860</ins><a>شرکت ایرانی </a></p>
+            <p class="home-h2">
+                <a>جابینجا : کاریابی انلاین با بیش ترین امار استخدام در ایران </a>
+            </p>
+            <div class="search-box-5 ">
+                <div class="search-input-box">
+                    <img src="./assets/img/search-icon.png" alt="" class="search-icon">
+                    <input type="search" class="search-input" placeholder="عنوان شغلی ,نام شرکت ,مهارت و...">
+                </div>
+                <button class="search-button"><span>جستجو در مشاغل</span></button>
+            </div>
+            <div class="search-box-7">
+                <div class="search-input-box">
+                    <img src="./assets/img/search-icon.png" alt="" class="search-icon">
+                    <input type="search" class="search-input" placeholder="عنوان شغلی ,نام شرکت ,مهارت و...">
+                </div>
+                <div class="all-capitals">
+                    <img class="location-icon" src="./assets/img/location-icon.png" alt="">
+                    <input type="text" class="search-input" placeholder="همه استان ها ">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="all-rendered">
+                    <img class="menue-icon" src="./assets/img/menu-icon.svg" alt="">
+                    <input type="text" class="search-input" placeholder="همه دسته بندی ها ">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <button class="search-button"><span>جستجو در مشاغل</span></button>
+            </div>
+            <a href="#" class="all-jobs">
+                مشاهده همه اگهی های استخدام
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="white"></path>
+                </svg>
+            </a>
+        </div>
+    </header>
+    <div class="top-content">
+        <div class="sent-resome">
+            <div class="title-circle"> </div>
+            <p class="sent-resome-p">
+                یک رزومه در جابینجا به شرکت <a href="#" class="companylink"> پدیده لبرز </a> ارسال شد.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="top-slider">
+        <div class="slide-1  ">
+            <img src="./assets/img/myare-brand.png" class="brand-img">
+            <p class="job-positions"> 4 فرصت شغلی </p>
+            <p class="company-name">میاره</p>
+        </div>
+        <div class="slide-2 ">
+            <img src="./assets/img/maltina-brand.jpg" class="brand-img">
+            <p class="job-positions">7فرصت شغلی</p>
+            <p class="company-name">مالتینا</p>
+        </div>
+        <div class="slide-3 ">
+            <img src="./assets/img/algorak-brand.jpg" class="brand-img">
+            <p class="job-positions">6فرصت شغلی</p>
+            <p class="company-name"> الگوراک</p>
+        </div>
+        <div class="slide-4 ">
+            <img src="./assets/img/mifid-kargozary.jpg" class="brand-img">
+            <p class="job-positions">6فرصت شغلی</p>
+            <p class="company-name"> کارگذاری مفید </p>
+        </div>
+        <div class="slide-5 ">
+            <img src="./assets/img/khanomi-brand.jpg" class="brand-img">
+            <p class="job-positions">6فرصت شغلی</p>
+            <p class="company-name"> خانومی</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="guest-user-box">
+
+        <div class=" top-user-box-title">
+            <img src="./assets/img/note.svg" class="note-img">
+            <p>
+                همین حالا در جابینجا ثبت‌نام کن و رزومه‌ات رو برای استخدام در شرکت‌های معتبر بفرست.
+            </p>
+        </div>
+
+        <div class="bottom-user-box">
+            <div class="login-signup">
+                <button class="signup-button">
+                    <a href="#"> ثبت نام کارجو</a>
+                </button>
+                <button class="login-button">
+                    <a href="#"> ورود کارجو</a>
+                </button>
+            </div>
+            <div class="emp-login">
+                <p class="emp-login-p"> کارفرماهستید؟
+                    <a href="#" class="emp-loginlink">
+                        ایجاداگهی استخدام
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="job-offers">
+        <div class="j-o-header">
+            <p class="j-o-lastoffers">اخرین اگهی ها </p>
+            <a href="#" class="j-o-alljobs">
+                مشاهده همه (458,690)
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                </svg>
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class="guestuser-jobcard">
+            <div class="guestuser-jobcard-c1">
+                <div class="guest-card-1">
+                    <div class="brand-icon">
+                        <img src="./assets/img/barman-brand.jpg" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+                                مشاور فروش(مهاجرت)
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        ایده ماندگار بارمان | Ideh Mandegar Barman
+                                    </span>
+
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        تهران ,تهران
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد تمام وقت(حقوق توافقی)
+                                    </span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <p class="time-record"> 1دقیقه پیش </p>
+                    </div>
+                </div>
+                <div class="guest-card-2">
+                    <div class="brand-icon">
+                        <img src="./assets/img/buran-brand.png" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+
+                                کارشناس استقرار سیستم های نرم‌افزاری
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        داده پردازان دوران
+                                    </span>
+
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        تهران ,تهران
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد تمام وقت(حقوق توافقی)
+                                    </span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <p class="time-record"> لحظاتی پیش </p>
+                    </div>
+                </div>
+            </div>
+            <div class="guestuser-jobcard-c2">
+
+                <div class="guest-card-3">
+                    <div class="brand-icon">
+                        <img src="./assets/img/logo-placeholder-brand.webp" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+                                کارآموز پشتیبانی (مشهد)
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        مشاور نرم افزار محک
+                                    </span>
+
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        خراسان رضوی، مشهد
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد
+                                        کارآموزی
+                                        (حقوق توافقی)
+                                    </span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <p class="time-record"> 1دقیقه پیش </p>
+                    </div>
+                </div>
+                <div class="guest-card-4">
+                    <div class="brand-icon">
+                        <img src="./assets/img/logo-placeholder-brand.webp" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+
+                                کارشناس فروش (فروشگاه های زنجیره ای مواد غذایی-آقا)
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        آیتانیش
+                                    </span>
+
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        تهران ,تهران
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد
+                                        تمام‌وقت
+                                        (حقوق از ۲۰,۰۰۰,۰۰۰ تومان)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="time-record"> 1دقیقه پیش </p>
+                    </div>
+                </div>
+            </div>
+            <div class="guestuser-jobcard-c3">
+                <div class="guest-card-5">
+                    <div class="brand-icon">
+                        <img src="./assets/img/mashhad-brand.jpg" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+                                کارآموز حسابداری
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        محاسب گران فرتاک
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        تهران ,تهران
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد
+                                        کارآموزی
+                                        (حقوق توافقی)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="time-record"> 2دقیقه پیش </p>
+                    </div>
+                </div>
+                <div class="guest-card-6">
+                    <div class="brand-icon">
+                        <img src="./assets/img/part-securoty-brand.png" alt="">
+                    </div>
+                    <div class="o-detail">
+                        <div class="job-title">
+                            <h1 class="work-position">
+                                کارشناس فروش
+                            </h1>
+                            <ul class="p-details">
+                                <li class="p-detail">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    <span>
+                                        پارت ایمن سیل
+                                    </span>
+
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        تهران ,تهران
+                                    </span>
+                                </li>
+                                <li class="p-detail">
+                                    <i class="fa-solid fa-file-contract"></i>
+                                    <span>
+                                        قرارداد تمام وقت(حقوق توافقی)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="time-record"> 1دقیقه پیش </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="begain-guid-box">
+        <h1 class="guid-box-h">از کجا شروع کنم؟</h1>
+        <div class="guid-box-details">
+            <div class="g-details">
+                <img class="g-home-icon" src="./assets/img/signup-home-icon.svg" alt="">
+                <div>
+                    <h2 class="g-detail-header">ثبت نام در جابینجا</h2>
+                    <p class="g-detail-description">
+                        میتونی به سادگی با گوگل، لینکدین یا ایمیل‌های دیگه ثبت نام کنی یا اگر
+                        قبلا حساب کاربری داشتی وارد شی
+                    </p>
+                    <a href="#" class="guid-link">
+                        ثبت نام
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="g-details">
+                <img class="g-home-icon" src="./assets/img/resume-home-icon.svg" alt="">
+                <div>
+                    <h2 class="g-detail-header">ساخت یا آپلود رزومه</h2>
+                    <p class="g-detail-description">
+                        با رزومه‌ساز استاندارد جابینجا در کمترین زمان رزومه‌ات رو بساز یا
+                        اگر فایل رزومه‌ی آماده داری آپلود کن
+                    </p>
+                    <a href="#" class="guid-link">
+                        ساخت رزومه
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="g-details">
+                <img class="g-home-icon" src="./assets/img/browse-home-icon.svg" alt="">
+                <div>
+                    <h2 class="g-detail-header">جستجوی مشاغل</h2>
+                    <p class="g-detail-description">
+                        می‌تونی عنوان شغلی یا نام شرکتی که می‌خوای رو در قسمت جستجو وارد کنی و آگهی‌ها رو ببینی.
+                    </p>
+                    <a href="#" class="guid-link">
+                        جستجو در مشاغل
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="g-details">
+                <img class="g-home-icon" src="./assets/img/apply-home-icon.svg" alt="">
+                <div>
+                    <h2 class="g-detail-header">ارسال درخواست شغلی</h2>
+                    <p class="g-detail-description">
+                        جزییات آگهی رو با دقت بخون و اگر شرایطش با سابقه شغلیت هماهنگ بود، رزومه‌ات رو براشون ارسال کن
+                    </p>
+                    <a href="#" class="guid-link">
+                        سوالات متداول کارجویان
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="company-introduction">
+        <div class="company-int-header">
+            <p class="co-int-h"> اشنایی با شرکت ها </p>
+            <a href="#" class="co-alllinks">
+                مشاهده همه
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="companies">
+            <div class="co-digikala">
+                <div class="company-icon">
+                    <img class="co-icon" src="./assets/img/digikala-brand.jpg" alt="">
+                    <div>
+                        <p class="co-name">دیجی کالا</p>
+                        <p class="co-jobarea">
+                            کامپیوتر، فناوری اطلاعات و اینترنت
+                        </p>
+                    </div>
+                </div>
+                <img class="company-photo" src="./assets/img/digikala-co-img.jpg" alt="">
+                <p class="co-slogan">ما تو دیجی‌کالا تلاش می‌کنیم رویای لبخند رو به هموطنان‌مون هدیه بدیم و گستردگی
+                    کارهای ما وابسته به تنوع نیازهای هموطنان‌مون در بازار تجارت الکترونیکه.</p>
+                <ul class="co-awards">
+                    <li class="co-award">
+                        <div class="awards-number">8</div> مجبوبیت بین کارجویان
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">6</div> تعدد و تنوع فرصت های شغلی
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">10</div> بررسی رزومه های دریافتی
+                    </li>
+                </ul>
+                <div class="company-page">
+                    <p> 13 شغل فعال </p>
+                    <a class="co-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="co-tajhizsanat">
+                <div class="company-icon">
+                    <img class="co-icon" src="./assets/img/bale-brand.webp" alt="">
+                    <div>
+                        <p class="co-name">بله</p>
+                        <p class="co-jobarea">
+                            کامپیوتر، فناوری اطلاعات و اینترنت
+                        </p>
+                    </div>
+                </div>
+                <img class="company-photo" src="./assets/img/bale-company-photo.webp" alt="">
+                <p class="co-slogan">«بله» از سال ۹۴ فعالیتش را در حوزۀ پیام‌رسانی شروع کرد و سپس با اضافه‌کردن امکانات
+                    مالی، به اولین پیام‌رسان بانکی ایران تبدیل شد.</p>
+                <ul class="co-awards">
+                    <li class="co-award">
+                        <div class="awards-number">10</div> مجبوبیت بین کارجویان
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">6</div> تعدد و تنوع فرصت های شغلی
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">10</div> بررسی رزومه های دریافتی
+                    </li>
+                </ul>
+                <div class="company-page">
+                    <p> 14 شغل فعال </p>
+                    <a class="co-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="co-datal">
+                <div class="company-icon">
+                    <img class="co-icon" src="./assets/img/datal-brand.webp" alt="">
+                    <div>
+                        <p class="co-name">داده کاوان هوشمند نارگان</p>
+                        <p class="co-jobarea">
+                            کامپیوتر، فناوری اطلاعات و اینترنت
+                        </p>
+                    </div>
+                </div>
+                <img class="company-photo" src="./assets/img/datal-brand.jpg" alt="">
+                <p class="co-slogan">شرکت دِیتال (داده‌کاوان هوشمند نارگان)، با همکاری دانشگاه صنعتی شریف و شرکت مهندسی
+                    نارگان با هدف هوشمندسازی
+                    ...
+                </p>
+                <ul class="co-awards">
+                    <li class="co-award">
+                        <div class="awards-number">8</div> مجبوبیت بین کارجویان
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">6</div> تعدد و تنوع فرصت های شغلی
+                    </li>
+                    <li class="co-award">
+                        <div class="awards-number">10</div> بررسی رزومه های دریافتی
+                    </li>
+                </ul>
+                <div class="company-page">
+                    <p> 13 شغل فعال </p>
+                    <a class="co-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hover-dotes">
+            <div class="hover-dote"></div>
+            <div class="hover-dote"></div>
+            <div class="hover-dote"></div>
+            <div class="hover-dote"></div>
+        </div>
+    </div>
+    <br>
+    <div class="job-list">
+        <div class="job-list-header">
+            <p> لیست مشاغل جابینجا</p>
+        </div>
+
+        <div class="j-list-7">
+            <div class="job-list-faq-7">
+                <div>
+                    <p class="faq-h">جستجو های پرطرفدار</p>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">دورکاری </a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> ادمین</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">ادمین دورکاری </a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> اسنپ</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> حسابداری</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> ووردپرس</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="faq-h">بر اساس استان</p>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">تهران</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> خراسان رضوی</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">اصفهان</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> البرز</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> فارس</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> قم</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="faq-h">بر اساس دسته‌بندی</p>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">فروش و بازاریابی</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> وب،‌ برنامه‌نویسی و نرم‌افزار</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">مالی و حسابداری</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> مالی و حسابداری</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> تولید و مدیریت محتوا</a></li>
+                        <li class="faq-list"><a class="faq-listlink" href="#"> دیجیتال مارکتینگ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="seemore">
+                <a class="faq-list-more" href="#">
+                    مشاهده بیشتر
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="j-list-5">
+            <div class="job-list-faq-5">
+                <details>
+                    <summary class="faq-h">
+                        جستجو های پرطرفدار
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                دورکاری
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                ادمین
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                ادمین دورکاری
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                اسنپ
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                حسابداری
+                            </a>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                ووردپرس
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-list-more" href="#">
+                                موارد بیشتر
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z"
+                                        fill="#3ab0e4">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <div class="job-list-faq-5">
+                <details>
+                    <summary class="faq-h">
+                        بر اساس استان
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                تهران
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                شیراز
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                اصفهان
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                تبریز
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                البرز
+                            </a>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                کیش
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                قم
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                گیلان
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                مازندران
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                کرمانشاه
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                سمنان
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                همدان
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                کهگیلویه و بویر احمد
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-list-more" href="#">
+                                موارد بیشتر
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z"
+                                        fill="#3ab0e4">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <div class="job-list-faq-5">
+                <details>
+                    <summary class="faq-h">
+                        براساس دسته بندی
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists">
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                فروش و بازاریابی
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                وب ,برنامه نویسی ونرم افزار
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                مالی و حسابداری
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                مسئول دفتر و مدیر اجرایی
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-listlink" href="#">
+                                تولید و مدیریت محتوا
+                            </a>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                دیجیتال مارکتینگ
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                طراحی
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                IT / DevOps / Server
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                خرید و بازرگانی
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                مهندسی عمران و معماری
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                منابع انسانی و کارگزینی
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                مهندسی برق و الکترونیک
+                            </a>
+                        </li>
+                        <li class="faq-list"> <a class="faq-listlink" href="#">
+                                کارگر ساده، نیروی خدماتی
+                            </a>
+                        </li>
+                        <li class="faq-list"><a class="faq-list-more" href="#">
+                                موارد بیشتر
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z"
+                                        fill="#3ab0e4">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="weblog-tab">
+        <div class="weblog-header">
+            <p class="weblgos-h1">از وبلاگ جابینجا</p>
+            <a href="#" class="weblogs-all">
+                مشاهده همه
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="weblogs-guest">
+            <div class="weblogs">
+                <img class="weblog-img" src="./assets/img/نقش-منابع-انسانی-در-توسعه-سازمان.webp" alt="">
+                <p class="weblog-title"> بررسی نقش منابع انسانی در توسعه سازمان</p>
+                <p class="weblog-description">نقش منابع انسانی در توسعه سازمان بر کسی پوشیده نیست. سازمان‌هایی رشد
+                    می‌کنند
+                    و به موفقیت می‌رسند که سرمایه‌های انسانی مناسبی در اختیار داشته باشند. در مدیریت منابع انسانی (HRM)
+                    تلاش می‌شود با ایجاد خط‌مشی‌ها و</p>
+                <div class="the-weblog">
+                    <a class="weblog-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="weblogs">
+                <img class="weblog-img" src="./assets/img/تکنیک_های-ارزیابی-عملکرد-کارکنان.webp" alt="">
+                <p class="weblog-title"> تکنیک‌های ارزیابی عملکرد کارکنان</p>
+                <p class="weblog-description">
+
+                    هر سازمانی برای دستیابی به موفقیت بلندمدت باید نیروی کار موثر را جذب و حفظ کند. برای حفظ نیروی
+                    انسانی باید رضایت شغلی کارکنان بهبود یابد. کسب‌وکارهای پیشرو با استفاده از تکنیک‌های ارزیابی عملکرد
+                    کارکنان به‌طور متناسب به نیروهای انسانی پاداش و مزایا می‌دهند تا امکان حفظ افراد شایسته را داشته
+                    باشند و...
+
+                </p>
+                <div class="the-weblog">
+                    <a class="weblog-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="weblogs">
+                <img class="weblog-img" src="./assets/img/تکنیک_های-مصاحبه-شغلی.webp" alt="">
+                <p class="weblog-title"> آموزش تکنیک‌های مصاحبه شغلی برای مدیران منابع انسانی</p>
+                <p class="weblog-description">
+
+                    جذب و استخدام نیروی انسانی کارآمد از مهمترین وظایف مدیران منابع انسانی است. مدیران واحد HR در هر
+                    سازمانی باید بهترین شیوه‌ها را برای مصاحبه شغلی به کار گیرند تا مستعدترین نیروها را شناسایی و از
+                    آنان در سازمان استفاده کنند. به همین دلیل آموزش تکنیک‌های مصاحبه شغلی برای مدیران منابع انسانی یک
+                    ضرورت اس...
+
+                </p>
+                <div class="the-weblog">
+                    <a class="weblog-pagelink" href="#">
+                        صفحه شرکت
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13.5L6.5 9L11 4.5L12.05 5.55L8.6 9L12.05 12.45L11 13.5Z" fill="#3ab0e4"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+        <div class="c-footer">
+            <div class="job-list-faq footer-box">
+                <details class="footer-details">
+                    <summary class="faq-h  footer-h">
+                        کارجویان
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists footer-lists">
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                سوالات متداول کارجویان
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                قوانین و مقررات کارجویان
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                لیست مشاغل
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                آگهی‌های استخدام
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                ورود / ثبت‌نام کارجو
+                            </a>
+                        <li class="faq-list footer-list"> <a class="faq-listlink footer-listlink" href="#">
+                                ایمیل‌های اطلاع‌رسانی
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"> <a class="faq-listlink footer-listlink" href="#">
+                                رزومه‌ساز آنلاین
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"> <a class="faq-listlink footer-listlink" href="#">
+                                آشنایی با شرکت‌ها
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <div class="job-list-faq footer-box">
+                <details class="footer-details">
+                    <summary class="faq-h  footer-h">
+                        کارفرمایان
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists footer-lists">
+                        <li class="faq-list footer-list "><a class="faq-listlink footer-listlink" href="#">
+                                سوالات متداول کارفرمایان
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink " href="#">
+                                قوانین و مقررات کارفرمایان
+
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                درج آگهی استخدام
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                ورود به بخش کارفرمایان
+
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                تعرفه‌ی انتشار آگهی
+                            </a>
+                        <li class="faq-list footer-list"> <a class="faq-listlink footer-listlink" href="#">
+                                سؤالات متداول
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <div class="job-list-faq footer-box">
+                <details class="footer-details  ">
+                    <summary class="faq-h  footer-h">
+                        جابینجا
+                        <i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="faq-lists footer-lists">
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink " href="#">
+                                تماس با جابینجا
+
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                جابینجا در رسانه‌ها
+
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list "><a class="faq-listlink footer-listlink" href="#">
+                                درج آگهی استخدام
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                راهنمای استفاده برای کارجویان
+
+                            </a>
+                        </li>
+                        <li class="faq-list footer-list"><a class="faq-listlink footer-listlink" href="#">
+                                وبلاگ
+                            </a>
+                    </ul>
+                </details>
+                <div class="footer-icons">
+                    <ul class="footer-icon-lists">
+                        <li class="f-i-list">
+                            <a href="#"> <img class="social-media-icon" src="./assets/img/instagram-icon.png"
+                                    alt=""></a>
+                        </li>
+                        <li class="f-i-list">
+                            <a href="#"> <img class="social-media-icon" src="./assets/img/twitter-icon.png" alt=""></a>
+                        </li>
+                        <li class="f-i-list">
+                            <a href="#"> <img class="social-media-icon" src="./assets/img/telegram-icon.png" alt=""></a>
+                        </li>
+                        <li class="f-i-list">
+                            <a href="#"> <img class="social-media-icon" src="./assets/img/linkedin.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <img class="footer-logo" src="./assets/img/jobinja-logo.webp" alt="">
+                    <p class="c-footer-text">
+                        با معتبرترین شرکت‌های کشور آشنا شوید و محل کار آینده خود را هوشمندانه انتخاب
+                        کنید.
+                    </p>
+                </div>
+                <p class="footer_copyright">
+                    ©
+                    ۱۴۰۳
+                    -
+                    تمامی حقوق برای جابینجا محفوظ است.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="c-footer7">
+        <div class="footer--details">
+            <ul class="footer-lists-7">
+                <div class="f-list-header">
+                    <p>کارجویان</p>
+                </div>
+                <li class="footer-list-7">سوالات متداول کارجویان</li>
+                <li class="footer-list-7">قوانین و مقررات کارجویان</li>
+                <li class="footer-list-7">لیست مشاغل</li>
+                <li class="footer-list-7">آگهی‌های استخدام</li>
+                <li class="footer-list-7">ورود / ثبت‌نام کارجو</li>
+                <li class="footer-list-7">ایمیل‌های اطلاع‌رسانی</li>
+                <li class="footer-list-7">رزومه‌ساز آنلاین</li>
+            </ul>
+            <ul class="footer-lists-7">
+                <div class="f-list-header">
+                    <p>کارفرمایان</p>
+                </div>
+                <li class="footer-list-7">سوالات متداول کارفرمایان</li>
+                <li class="footer-list-7">قوانین و مقررات کارفرمایان</li>
+                <li class="footer-list-7">درج آگهی استخدام</li>
+                <li class="footer-list-7">ورود به بخش کارفرمایان</li>
+                <li class="footer-list-7">تعرفه‌ی انتشار آگهی</li>
+                <li class="footer-list-7">سؤالات متداول</li>
+            </ul>
+            <ul class="footer-lists-7">
+                <div class="f-list-header">
+                    <p>جابینجا</p>
+                </div>
+                <li class="footer-list-7">تماس با جابینجا</li>
+                <li class="footer-list-7">جابینجا در رسانه‌ها</li>
+                <li class="footer-list-7">راهنمای استفاده برای کارجویان</li>
+                <li class="footer-list-7">وبلاگ</li>
+            </ul>
+            <ul class="footer-lists-7  f-lists-7">
+                <div class="f-list-header">
+                    <p>جابینجا در شبکه های اجتماعی </p>
+                </div>
+                <li class="footer-list-7">
+                    <div class="footer-icons f-icons-7">
+                        <ul class="footer-icon-lists">
+                            <li class="f-i-list">
+                                <a href="#"> <img class="social-media-icon" src="./assets/img/instagram-icon.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="f-i-list">
+                                <a href="#"> <img class="social-media-icon" src="./assets/img/twitter-icon.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="f-i-list">
+                                <a href="#"> <img class="social-media-icon" src="./assets/img/telegram-icon.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="f-i-list">
+                                <a href="#"> <img class="social-media-icon" src="./assets/img/linkedin.png" alt=""></a>
+                            </li>
+                        </ul>
+                        <img class="footer-logo" src="./assets/img/jobinja-logo.webp" alt="">
+                        <p class="c-footer-text">
+                            با معتبرترین شرکت‌های کشور آشنا شوید و محل کار آینده خود را هوشمندانه انتخاب
+                            کنید.
+                        </p>
+                    </div>
+                    <p class="footer_copyright">
+                        ©
+                        ۱۴۰۳
+                        -
+                        تمامی حقوق برای جابینجا محفوظ است.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-icons f-icons-5">
+            <ul class="footer-icon-lists">
+                <li class="f-i-list">
+                    <a href="#"> <img class="social-media-icon" src="./assets/img/instagram-icon.png" alt=""></a>
+                </li>
+                <li class="f-i-list">
+                    <a href="#"> <img class="social-media-icon" src="./assets/img/twitter-icon.png" alt=""></a>
+                </li>
+                <li class="f-i-list">
+                    <a href="#"> <img class="social-media-icon" src="./assets/img/telegram-icon.png" alt=""></a>
+                </li>
+                <li class="f-i-list">
+                    <a href="#"> <img class="social-media-icon" src="./assets/img/linkedin.png" alt=""></a>
+                </li>
+            </ul>
+            <img class="footer-logo" src="./assets/img/jobinja-logo.webp" alt="">
+            <p class="c-footer-text">
+                با معتبرترین شرکت‌های کشور آشنا شوید و محل کار آینده خود را هوشمندانه انتخاب
+                کنید.
+            </p>
+        </div>
+        <p class="footer_copyright">
+            ©
+            ۱۴۰۳
+            -
+            تمامی حقوق برای جابینجا محفوظ است.
+        </p>
+    </div>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
